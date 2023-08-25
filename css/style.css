@@ -1,0 +1,307 @@
+/* global css */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,400;1,600;1,700&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+}
+p span{
+ font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.graybg{
+    background-color: #f9fafb;
+}
+/* header section start */
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a {
+    display: inline-block;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-icon a {
+    color: black;
+    font-size: 23px;
+    padding: 17px;
+    border-right: 1px solid #dddd;
+}
+.h-text {
+    width: 170px;
+    padding-left: 13px;
+}
+.phone-icon a{
+    font-size: 25px;
+    color: #e73c3e;
+}
+.phone-icon {
+    font-size: 33px;
+    padding-right: 13px;
+}
+.text-call p{
+    color: #606060;
+    margin: 3px;
+}
+.text-call h6 {
+    color: black;
+    font-size: 14px;
+    margin: 0;
+}
+.headr-btn{
+    position: relative;
+}
+.button-info{
+    background-color: #e73c3e !important;
+    border: 1px solid #e73c3e !important;
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.headr-btn::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    border-color: black;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: .7s;
+}
+.headr-btn:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+/* slider section start */
+
+.btn-primary{
+    padding: 10px 40px;
+    font-size: 17px;
+    background-color: #e73c3e;
+    border-color: #e73c3e;
+    position: relative;
+    z-index: 1;
+}
+.btn-primary::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: .7s;
+}
+.btn-primary:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+.slider-contant h6{
+    color: #e73c3e;
+}
+.slider-contant h1 {
+    font-size: 53px;
+    font-weight: 600;
+    padding: 17px 0;
+}
+.slider-contant p {
+    font-size: 18px;
+    color: #606060;
+    padding-bottom: 17px;
+}
+.sliderSection{
+    background: url(../img/main-banner2.jpg) top center no-repeat;
+    background-size: cover;
+}
+.slider-contant-wrap{
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.slider-social{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.slider-social ul{
+    list-style: none;
+    padding-left: 0;
+}
+.slider-social ul li span {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    color: black;
+    margin-right: 107px;
+}
+.slider-social ul li span::after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    right: -98px;
+}
+.slider-social ul li a {
+    display: inline-block;
+    font-size: 20px;
+    color: #111;
+    text-decoration: none;
+    padding: 0 11px;
+    transition: .7s;
+}
+.slider-social ul li a:hover{
+    color: #e73c3e;
+}
+/* logo section start */
+
+.clint-logo ul{
+    list-style: none;
+    padding-left: 0;
+}
+.logoSection {
+    border-bottom: 1px solid #dddd;
+}
+
+/* about section start */
+.about-left{
+    position: relative;
+}
+.about-img-text {
+    position: absolute;
+    right: -17px;
+    bottom: 15px;
+    background: url(../img/shape.png) no-repeat;
+    width: 175px;
+    height: 175px;
+    background-size: contain;
+    display: flex;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+.about-inner{
+    justify-content: center;
+}
+.finix-text {
+    padding-left: 50px;
+}
+.finix-text h6{
+    color: #e73c3e;
+    font-size: 17px;
+}
+.finix-text h1 {
+    font-weight: 500;
+    font-size: 37px;
+    margin: 25px 0;
+}
+.finix-text p{
+    color: #606060;
+    font-size: 17px;
+}
+.finix-text strong {
+    color: #606060;
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.finix-text ul{
+    list-style: none;
+}
+.finix-text ul li::before {
+    content: "\f00c";
+    font: var(--fa-font-solid);
+    color: #e73c3e;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 9px 0;
+    font-size: 20px;
+}
+
+/* why choose us section */
+.choose-left h1{
+    font-weight: 700;
+}
+.choose-left{
+    padding-left: 0;
+    position: relative;
+}
+.porgress-tiem{
+    background-color: white;
+    padding: 17px;
+    margin-bottom: 27px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.porgress-tiem:hover{
+    transform: translateY(-17px);
+}
+.porgress-tiem::before {
+    content: "";
+    position: absolute;
+    top: -127px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 70%;
+    background-color: #fdebeb;
+    border-radius: 50%;
+    margin: auto;
+}
+.progress-icon i {
+    color: #e73c3e;
+    font-size: 30px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #ffff;
+    line-height: 80px;
+    border-radius: 50px;
+    position: relative;
+    transition: .5s;
+}
+.porgress-tiem:hover .progress-icon i {
+    background-color: #e73c3e;
+    color: white;
+}
+.mt4{
+    margin-top: -30px;
+}
+.play-animation-btn i {
+    font-size: 50px;
+    color: #e73c3e;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 67px;
+    right: 212px;
+}
