@@ -311,8 +311,37 @@ img{
 /* contact section start */
 
 .contact-left ul {
-    padding: 0;
+    position: relative;
+    padding-left: 37px;
 }
+
+.contact-left ul::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: calc( 100% - 83px) ;
+    background-color: #e73c3e;
+}
+.contact-left ul li{
+    position: relative;
+}
+.contact-left ul li::before {
+    position: absolute;
+    content: attr(data-counte);
+    top: 0;
+    left: -58px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid #e73c3e;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 21px;
+}
+
 .contact-left ul li {
     list-style: none;
     margin-bottom: 27px;
@@ -335,7 +364,6 @@ label{
     outline: none;
     border: none;
 }
-
 /* phone section start */
 .phone{
     background: #e73c3e;
@@ -378,6 +406,7 @@ label{
 .company-left h2 {
     margin-bottom: 37px;
     font-size: 37px;
+    font-weight: 600;
 }
 .company-item {
     margin-bottom: 23px;
