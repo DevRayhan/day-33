@@ -336,3 +336,52 @@ label{
     border: none;
 }
 
+/* phone section start */
+.phone{
+    background: #e73c3e;
+    color: antiquewhite;
+    padding: 47px;
+}
+.phone h2{
+    font-size:37px ;
+    border-right: 1px solid wheat;
+
+}
+.p-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: #fdebeb;
+    color: #e73c3e;
+    line-height: 70px;
+    font-size: 27px;
+    border-radius: 50%;
+}
+.phone-number{
+    font-size: 27px;
+    padding-left: 27px;
+    padding-top: 17px;
+}
+
+/* our company section start */
+.c-icon {
+    font-size: 40px;
+    color: #e73c3e;
+    margin-right: 27px;
+}
+.c-text h4{
+    font-size: 27px;
+}
+.c-text p{
+    color: #606060;
+}
+.company-left h2 {
+    margin-bottom: 37px;
+    font-size: 37px;
+}
+.company-item {
+    margin-bottom: 23px;
+}
+.company-right img{
+    margin-top: 107px;
+}
