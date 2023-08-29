@@ -308,14 +308,31 @@ img{
     bottom: 67px;
     right: 212px;
 }
-/* .play-animation-btn i::after{
-    content: "";
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    line-height: 80px;
-    border-radius: 50%;
-    background-color: #e73c3e;
-    top: 0;
-    left: 0;
-} */
+/* contact section start */
+
+.contact-left ul {
+    padding: 0;
+}
+.contact-left ul li {
+    list-style: none;
+    margin-bottom: 27px;
+}
+.contact-left ul li h4 {
+    font-size: 27px;
+}
+.contact-left ul li p{
+    color: #606060;
+}
+.contact-right{
+    background-color: #fdebeb;
+    padding: 37px;
+}
+label{
+    display: block;
+    color: #606060;
+}
+.input-group{
+    outline: none;
+    border: none;
+}
+
