@@ -460,9 +460,25 @@ label{
     height: 13px;
     background-color: #e73c3e;
     top: 5px;
-    left: -17px;
+    left: -27px;
     border-radius: 50px;
 }
 .single-service-right{
     padding-left: 23px;
+}
+/* testmonial section start */
+.test-left {
+    margin-top: 49px;
+}
+.test-left h5 {
+    color: #e73c3e;
+    padding-top: 15px ;
+    font-size: 17px;
+}
+.test-left span {
+    color: #606060;
+}
+.test-left p{
+    font-size: 25px;
+    font-weight: 400;
 }
