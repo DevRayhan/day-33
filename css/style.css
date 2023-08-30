@@ -414,3 +414,55 @@ label{
 .company-right img{
     margin-top: 107px;
 }
+
+/* services section start */
+.services ul {
+    border-bottom: 1px solid #dddd;
+    padding-bottom: 27px;
+}
+.services ul li{
+    flex: 1 1 auto;
+}
+.services ul li strong {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.services ul li a span i {
+    color: #606060;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background:white;
+    font-size: 31px;
+    border-radius: 50%;
+}
+.services ul li a.active span i{
+    color: #e73c3e;
+}
+.services ul li a.active::after{
+    position: relative;
+}
+.single-service-right ul{
+    list-style: none;
+}
+.single-service-right p{
+    color: #606060;
+}
+.single-service-right ul li{
+    position: relative;
+    color: #606060;
+}
+.single-service-right ul li::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #e73c3e;
+    top: 5px;
+    left: -17px;
+    border-radius: 50px;
+}
+.single-service-right{
+    padding-left: 23px;
+}
