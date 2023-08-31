@@ -492,10 +492,11 @@ label{
     font-size: 16px;
     color: #606060;
 }
-.team-img ul{
+.img-social ul li{
     list-style: none;
+    display: inline-block;
 }
-.team-img ul li a {
+.img-social ul li a{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -504,8 +505,5 @@ label{
     text-align: center;
     color: black;
     background: wheat;
-
-}
-.team-img{
-    position: relative;
+    margin: 3px;
 }
