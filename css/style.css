@@ -483,10 +483,10 @@ label{
     font-weight: 400;
 }
 /* team section start */
-.team-content h3{
+.team-content h3 {
     font-size: 20px;
     color: #e73c3e;
-    margin-bottom: 8px;
+    padding-top: 27px;
 }
 .team-content p{
     font-size: 16px;
@@ -497,13 +497,80 @@ label{
     display: inline-block;
 }
 .img-social ul li a{
-    display: inline-block;
+    display:block;
     width: 40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
     color: black;
-    background: wheat;
+    background: white;
     margin: 3px;
+    transition: 1s;
 }
+.img-social ul li a:hover{
+    background-color: #e73c3e;
+    color: white;
+}
+.team-img{
+    position: relative;
+}
+.img-social ul li {
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s ease-in-out ;
+    transform: translateY(45px);
+    margin: auto;
+}
+.img-social{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+}
+.single-member:hover .img-social ul li{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+.single-member .img-social ul li:nth-child(1){
+   transition-delay:.2s;
+}
+.single-member .img-social ul  li:nth-child(2){
+    transition-delay:.3s;
+}
+.single-member .img-social ul li:nth-child(3){
+    transition-delay:.4s;
+}
+.single-member .img-social ul li:nth-child(4){
+    transition-delay:.5s;
+}
+
+/* <!-- blog section start --> */
+.blog-content h6{
+    color: #e73c3e;
+    padding-top: 23px;
+}
+.blog-content h3 a {
+    color: #111111;
+    text-decoration: none;
+    transition: .5s;
+    display: inline-block;
+    padding: 17px 0;
+    font-size: 25px;
+}
+.blog-content h3 a:hover{
+    color: #e73c3e;
+    letter-spacing: 0;
+}
+.blog-content a{
+    text-decoration: none;
+    color: #111111;
+    transition: .7s;
+}
+.blog-content a:hover{
+    color:#e73c3e;
+    letter-spacing: 3px;
+}
+/* footer section start */
