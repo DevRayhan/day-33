@@ -106,7 +106,7 @@ img{
     height: 100%;
     background-color: black;
     z-index: -1;
-    
+    border-radius: 3px;
     visibility: hidden;
     opacity: 0;
     transition: .7s;
@@ -115,6 +115,11 @@ img{
     visibility: visible;
     opacity: 1;
     width: 100%;
+
+}
+.btn-primary:hover{
+    background-color: #e73c3e;
+    border-color: #fcfefd;
 }
 .slider-contant h6{
     color: #e73c3e;
@@ -574,3 +579,61 @@ label{
     letter-spacing: 3px;
 }
 /* footer section start */
+.footerSection{
+    background-color: #111111;
+    color: #ffff;
+}
+.footer-top{
+    border-bottom:1px solid #444;
+}
+.footer-widget h3 {
+    font-size: 23px;
+    padding: 21px 0;
+    border-bottom: 1px solid #4444;
+    margin-bottom: 21px;
+}
+.footer-top ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.footer-top ul li{
+    
+}
+.footer-top ul li a {
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 11px;
+    transition: .7s;
+}
+.footer-top ul li a:hover{
+    color: #e73c3e;
+    letter-spacing: 1.7px;
+}
+.footer-social ul li a{
+    display: block;
+    margin-left: 17px;
+    letter-spacing: 0;
+}
+.footer-widget p {
+    padding: 23px 0;
+}
+.footer-bootom p{
+    color: #444;
+    margin-bottom: 0;
+}
+.footer-bootom a{
+    color: white;
+}
+.footer-contact-item{
+    margin-bottom: 21px;
+}
+.footer-contact span{
+    padding-right: 17px;
+
+}
+.footer-contact a{
+    color: white;
+    text-decoration: none;
+}
