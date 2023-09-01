@@ -597,9 +597,6 @@ label{
     margin-left: 0;
     padding-left: 0;
 }
-.footer-top ul li{
-    
-}
 .footer-top ul li a {
     color: #ffff;
     text-decoration: none;
@@ -631,7 +628,6 @@ label{
 }
 .footer-contact span{
     padding-right: 17px;
-
 }
 .footer-contact a{
     color: white;
